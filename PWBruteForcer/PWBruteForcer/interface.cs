@@ -32,7 +32,7 @@ namespace PWBruteForcer
         private void Interface_Load(object sender, EventArgs e)
         {
             DirectoryInfo directoryInfo = Directory.GetParent(executablePath); // Up one level to Debug
-            for (int i = 0; i < 3; i++) // Repeat three more times to go up four levels in total
+            for (int i = 0; i < 4; i++) // Repeat four more times to go up five levels in total
             {
                 directoryInfo = directoryInfo?.Parent;
             }
