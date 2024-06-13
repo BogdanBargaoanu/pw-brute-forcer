@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace PWBruteForcer
 {
-    public partial class Form1 : Form
+    public partial class Interface : Form
     {
-        public Form1()
+        public Interface()
         {
             InitializeComponent();
+        }
+
+        private void attemptLoginBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Interface_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
